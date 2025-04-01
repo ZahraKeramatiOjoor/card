@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+             <h3>Name:</h3>
+            <div>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="fname">
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lname">
+            </div>
+            <br>
+            <h3>Gender:</h3>
+            <div>
+                <input type="radio" value="male" id="male" name="gender">
+                <label for="male">male</label>
+            </div>
+            <div>
+                <input type="radio" value="female" id="female" name="gender">
+                <label for="female">female</label>
+            </div>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>skill</legend>
+            <div>
+                <input type="checkbox" id="html" name="skills" value="Html" >
+                <label for="html">Html5</label>
+            </div>
+            <div>
+                <input type="checkbox" id="css" name="skills" value="Css" >
+                <label for="css">Css3</label>
+            </div>
+            <div>
+                <input type="checkbox" id="js" name="skills" value="javascript" >
+                <label for="js">JavaScript</label>
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="save data">
+    </form>
+</body>
+</html>
