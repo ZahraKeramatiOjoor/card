@@ -18,14 +18,14 @@
         <!--  پس برای استفاده از حالت اتوکامپلیت باید نام را حتما برای متغیر تعریف کرده باشی
           جدا از اینکه اگر نامی تعریف نکرده باشی کلا اطلاعات سمت سرور فرستاده نمیشه!
            -->
-        <input type="submit" value="save data">
+        
         <!-- تارگت مشخص میکنه که وقتی اطلاعات رو سابمیت کردیم به چه شکلی سابمیت بشه ینی مثلا در همون صفحه ای که هستیم سابمیت بشه
          یا یک صفحه جدید باز بشه و سابمیت بشه؟ یا گزینه های دیگه ای که داره. تفاوت بین گزینه هاش رو نمیدونم اما فکر کنم بک اند کار
          این قسمت رو باید پر کنه.
           -->
-    
-          <label for="selectbox">Select box</label>
-        <select name="selectbox-data" id="selectbox" size="5">
+
+        <label for="selectbox">Select box</label>
+        <select name="selectbox-data" id="selectbox" size="1">
             <!-- از سلکت ما برای انتخاب یک گزینه بین گزینه های موجود استفاده میکنیم
               -->
             <!-- با استفاده از اتریبیوت سایز میتوان تعداد گزینه هایی که در ابتدای لیست نمایش داده میشود را تعیین کرد
@@ -33,22 +33,32 @@
              با وارد کردن تعداد مقادیر مثلا 5 تعداد ابتدای لیست را مشخص میکنیم و بعد از آن تعداد برای دیدن سایر گزینه ها
              کاربر باید اسکرول کند
               -->
+             <!--  نکته:
+               با دادن مقداری به سایز به جز یک نمایش لیست به صورت باز اتفاق میافتد! اما اگر مجدد به 1 تنظیم شود
+               لیست سلکت به صورت بسته تغییر میکند.
+                -->
             <option value="html">Html5</option>
             <option value="CSs">Css</option>
             <option value="test" selected>test</option>
             <!-- با انتخاب اتریبیوت سلکتد اون آپشن به آپشنی که در ابتدا و بدون باز کردن لیست به کاربر نمایش داده میشود، تبدیل
              میشود. در حالت پیشفرض این مقدار بر روی آپشن اول ست شده است.
               -->
-              <option value="js">JavaScript</option>
-              <option value="vuejs">VueJs</option>
-              <option value="js">JavaScript</option>
-              <option value="vuejs">VueJs</option>
-              <option value="js">JavaScript</option>
-              <option value="vuejs">VueJs</option>
-              <option value="js">JavaScript</option>
-              <option value="vuejs">VueJs</option>
-                                          
+            <option value="js">JavaScript</option>
+            <option value="vuejs">VueJs</option>
+            <option value="js">JavaScript</option>
+            <option value="vuejs">VueJs</option>
+            <option value="js">JavaScript</option>
+            <option value="vuejs">VueJs</option>
+            <option value="js">JavaScript</option>
+            <option value="vuejs">VueJs</option>
+            <!-- داخل تگ سلکت فقط میتوان تک آپشن را قرار داد
+              -->
         </select>
+            
+        <br>
+        <hr>
+
+        <input type="submit" value="save data">
     </form>
 </body>
 </html>
